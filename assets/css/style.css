@@ -45,3 +45,32 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 100px;
+}
+.logo .wiki {
+    height: 20%;
+    width: auto;
+
+}
+.logo .globo {
+    height: 50%;
+    width: auto;
+
+}
+.logo span {
+    font-size: 0.8rem;
+    color: #555;
+    display: block;
+}
+.search {
+    display: flex;
+    gap: 0.5rem;
+    left: 30%;
+    position: relative;
+    
+}
